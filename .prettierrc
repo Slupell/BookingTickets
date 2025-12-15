@@ -1,0 +1,25 @@
+{
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "useTabs": false,
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "jsxBracketSameLine": false,
+  "singleAttributePerLine": true,
+  "trailingComma": "all",
+  "options": {
+    "editorconfig": true
+  },
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": { "parser": "json" }
+    }
+  ],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
